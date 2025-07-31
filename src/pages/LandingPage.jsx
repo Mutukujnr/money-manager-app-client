@@ -127,21 +127,21 @@ const LandingPage = ({ onGetStarted, onLogin }) => {
               <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-4 sm:p-6 rounded-lg sm:rounded-xl">
                 <div className="flex items-center justify-between mb-3">
                   <WalletCards className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600" />
-                  <span className="text-lg sm:text-2xl font-bold text-gray-900">$12,450</span>
+                  <span className="text-lg sm:text-2xl font-bold text-gray-900">Ksh 12,450</span>
                 </div>
                 <p className="text-sm sm:text-base text-gray-600">Total Balance</p>
               </div>
               <div className="bg-gradient-to-r from-green-50 to-green-100 p-4 sm:p-6 rounded-lg sm:rounded-xl">
                 <div className="flex items-center justify-between mb-3">
                   <Wallet className="w-6 h-6 sm:w-8 sm:h-8 text-green-600" />
-                  <span className="text-lg sm:text-2xl font-bold text-gray-900">$8,220</span>
+                  <span className="text-lg sm:text-2xl font-bold text-gray-900">Ksh 8,220</span>
                 </div>
                 <p className="text-sm sm:text-base text-gray-600">Total Income</p>
               </div>
               <div className="bg-gradient-to-r from-red-50 to-red-100 p-4 sm:p-6 rounded-lg sm:rounded-xl sm:col-span-2 lg:col-span-1">
                 <div className="flex items-center justify-between mb-3">
                   <Coins className="w-6 h-6 sm:w-8 sm:h-8 text-red-600" />
-                  <span className="text-lg sm:text-2xl font-bold text-gray-900">$3,770</span>
+                  <span className="text-lg sm:text-2xl font-bold text-gray-900">Ksh 3,770</span>
                 </div>
                 <p className="text-sm sm:text-base text-gray-600">Total Expenses</p>
               </div>
