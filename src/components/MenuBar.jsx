@@ -18,7 +18,7 @@ const MenuBar = ({ activeMenu }) => {
     clearUser();
     setShowDropdown(false);
     toast.success("You have been logged out. Login to access your account");
-    navigate("/login");
+    navigate("/");
   };
 
   // Close sidebar when clicking outside or on links
